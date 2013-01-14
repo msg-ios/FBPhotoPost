@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28379DCF16A4A1AA0012A105 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28379DCE16A4A1AA0012A105 /* UIKit.framework */; };
+		28379DD116A4A1AA0012A105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28379DD016A4A1AA0012A105 /* Foundation.framework */; };
+		28379DD316A4A1AA0012A105 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28379DD216A4A1AA0012A105 /* CoreGraphics.framework */; };
+		28379DD916A4A1AA0012A105 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28379DD716A4A1AA0012A105 /* InfoPlist.strings */; };
+		28379DDB16A4A1AA0012A105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28379DDA16A4A1AA0012A105 /* main.m */; };
+		28379DDF16A4A1AA0012A105 /* FBPPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28379DDE16A4A1AA0012A105 /* FBPPAppDelegate.m */; };
+		28379DE116A4A1AA0012A105 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 28379DE016A4A1AA0012A105 /* Default.png */; };
+		28379DE316A4A1AA0012A105 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28379DE216A4A1AA0012A105 /* Default@2x.png */; };
+		28379DE516A4A1AA0012A105 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28379DE416A4A1AA0012A105 /* Default-568h@2x.png */; };
+		28379DE816A4A1AA0012A105 /* FBPPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28379DE716A4A1AA0012A105 /* FBPPViewController.m */; };
+		28379DEB16A4A1AA0012A105 /* FBPPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28379DE916A4A1AA0012A105 /* FBPPViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28379DCA16A4A1AA0012A105 /* FBPhotoPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBPhotoPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28379DCE16A4A1AA0012A105 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28379DD016A4A1AA0012A105 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28379DD216A4A1AA0012A105 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28379DD616A4A1AA0012A105 /* FBPhotoPost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FBPhotoPost-Info.plist"; sourceTree = "<group>"; };
+		28379DD816A4A1AA0012A105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28379DDA16A4A1AA0012A105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28379DDC16A4A1AA0012A105 /* FBPhotoPost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBPhotoPost-Prefix.pch"; sourceTree = "<group>"; };
+		28379DDD16A4A1AA0012A105 /* FBPPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBPPAppDelegate.h; sourceTree = "<group>"; };
+		28379DDE16A4A1AA0012A105 /* FBPPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBPPAppDelegate.m; sourceTree = "<group>"; };
+		28379DE016A4A1AA0012A105 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		28379DE216A4A1AA0012A105 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		28379DE416A4A1AA0012A105 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		28379DE616A4A1AA0012A105 /* FBPPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBPPViewController.h; sourceTree = "<group>"; };
+		28379DE716A4A1AA0012A105 /* FBPPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBPPViewController.m; sourceTree = "<group>"; };
+		28379DEA16A4A1AA0012A105 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FBPPViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28379DC716A4A1AA0012A105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28379DCF16A4A1AA0012A105 /* UIKit.framework in Frameworks */,
+				28379DD116A4A1AA0012A105 /* Foundation.framework in Frameworks */,
+				28379DD316A4A1AA0012A105 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28379DBF16A4A1AA0012A105 = {
+			isa = PBXGroup;
+			children = (
+				28379DD416A4A1AA0012A105 /* FBPhotoPost */,
+				28379DCD16A4A1AA0012A105 /* Frameworks */,
+				28379DCB16A4A1AA0012A105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28379DCB16A4A1AA0012A105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28379DCA16A4A1AA0012A105 /* FBPhotoPost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28379DCD16A4A1AA0012A105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28379DCE16A4A1AA0012A105 /* UIKit.framework */,
+				28379DD016A4A1AA0012A105 /* Foundation.framework */,
+				28379DD216A4A1AA0012A105 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28379DD416A4A1AA0012A105 /* FBPhotoPost */ = {
+			isa = PBXGroup;
+			children = (
+				28379DDD16A4A1AA0012A105 /* FBPPAppDelegate.h */,
+				28379DDE16A4A1AA0012A105 /* FBPPAppDelegate.m */,
+				28379DE616A4A1AA0012A105 /* FBPPViewController.h */,
+				28379DE716A4A1AA0012A105 /* FBPPViewController.m */,
+				28379DE916A4A1AA0012A105 /* FBPPViewController.xib */,
+				28379DD516A4A1AA0012A105 /* Supporting Files */,
+			);
+			path = FBPhotoPost;
+			sourceTree = "<group>";
+		};
+		28379DD516A4A1AA0012A105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28379DD616A4A1AA0012A105 /* FBPhotoPost-Info.plist */,
+				28379DD716A4A1AA0012A105 /* InfoPlist.strings */,
+				28379DDA16A4A1AA0012A105 /* main.m */,
+				28379DDC16A4A1AA0012A105 /* FBPhotoPost-Prefix.pch */,
+				28379DE016A4A1AA0012A105 /* Default.png */,
+				28379DE216A4A1AA0012A105 /* Default@2x.png */,
+				28379DE416A4A1AA0012A105 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28379DC916A4A1AA0012A105 /* FBPhotoPost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28379DEE16A4A1AA0012A105 /* Build configuration list for PBXNativeTarget "FBPhotoPost" */;
+			buildPhases = (
+				28379DC616A4A1AA0012A105 /* Sources */,
+				28379DC716A4A1AA0012A105 /* Frameworks */,
+				28379DC816A4A1AA0012A105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBPhotoPost;
+			productName = FBPhotoPost;
+			productReference = 28379DCA16A4A1AA0012A105 /* FBPhotoPost.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28379DC116A4A1AA0012A105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FBPP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = MSG;
+			};
+			buildConfigurationList = 28379DC416A4A1AA0012A105 /* Build configuration list for PBXProject "FBPhotoPost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28379DBF16A4A1AA0012A105;
+			productRefGroup = 28379DCB16A4A1AA0012A105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28379DC916A4A1AA0012A105 /* FBPhotoPost */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28379DC816A4A1AA0012A105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28379DD916A4A1AA0012A105 /* InfoPlist.strings in Resources */,
+				28379DE116A4A1AA0012A105 /* Default.png in Resources */,
+				28379DE316A4A1AA0012A105 /* Default@2x.png in Resources */,
+				28379DE516A4A1AA0012A105 /* Default-568h@2x.png in Resources */,
+				28379DEB16A4A1AA0012A105 /* FBPPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28379DC616A4A1AA0012A105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28379DDB16A4A1AA0012A105 /* main.m in Sources */,
+				28379DDF16A4A1AA0012A105 /* FBPPAppDelegate.m in Sources */,
+				28379DE816A4A1AA0012A105 /* FBPPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28379DD716A4A1AA0012A105 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28379DD816A4A1AA0012A105 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28379DE916A4A1AA0012A105 /* FBPPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28379DEA16A4A1AA0012A105 /* en */,
+			);
+			name = FBPPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28379DEC16A4A1AA0012A105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28379DED16A4A1AA0012A105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28379DEF16A4A1AA0012A105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBPhotoPost/FBPhotoPost-Prefix.pch";
+				INFOPLIST_FILE = "FBPhotoPost/FBPhotoPost-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28379DF016A4A1AA0012A105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FBPhotoPost/FBPhotoPost-Prefix.pch";
+				INFOPLIST_FILE = "FBPhotoPost/FBPhotoPost-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28379DC416A4A1AA0012A105 /* Build configuration list for PBXProject "FBPhotoPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28379DEC16A4A1AA0012A105 /* Debug */,
+				28379DED16A4A1AA0012A105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28379DEE16A4A1AA0012A105 /* Build configuration list for PBXNativeTarget "FBPhotoPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28379DEF16A4A1AA0012A105 /* Debug */,
+				28379DF016A4A1AA0012A105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28379DC116A4A1AA0012A105 /* Project object */;
+}
